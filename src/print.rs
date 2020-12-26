@@ -16,12 +16,16 @@ pub fn run() {
   println!(
     "{name} likes to play {activity}",
     name = "Jitendra",
-    activity = "baseball"
+    activity = "doom"
   );
 
   // Placeholder traits
   println!("Binary: {:b}, Hex: {:x}, Octal: {:o}", 10, 10, 10);
 
   // Placeholder fro debug trait
-  println!("{:?}", (12, true, "hello"))
+  println!("{:?}", (12, true, "hello"));
+  println!("{:?}", [12, 12, 12]);
+
+  // Basic math
+  println!("10 + 10 = {}", 10 + 10);
 }
